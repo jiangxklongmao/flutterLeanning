@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning/page/FlowPage.dart';
 import 'package:flutter_learning/page/HomePage.dart';
+import 'package:flutter_learning/page/SemicircleFlowPopMenu.dart';
 import 'package:flutter_learning/page/TextPage.dart';
 
 void main() {
@@ -29,7 +31,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
-      routes: {"TextPage": (BuildContext context) => TextPage()},
+      routes: {
+        "TextPage": (BuildContext context) => TextPage(),
+        "FlowPopMenu": (BuildContext context) => FlowPopMenu(),
+        "SemicircleFlowPopMenu": (BuildContext context) => SemicircleFlowPopMenu()
+      },
     );
   }
 }

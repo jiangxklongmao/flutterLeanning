@@ -19,6 +19,20 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "TextPage");
               },
               child: Text("TextPage"),
+            ),
+            SizedBox(height: 20),
+            TextButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "FlowPopMenu");
+              },
+              child: Text("FlowPopMenu"),
+            ),
+            SizedBox(height: 20),
+            TextButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "SemicircleFlowPopMenu");
+              },
+              child: Text("SemicircleFlowPopMenu"),
             )
           ],
         ),
