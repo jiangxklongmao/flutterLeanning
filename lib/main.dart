@@ -3,6 +3,7 @@ import 'package:flutter_learning/page/FlowPage.dart';
 import 'package:flutter_learning/page/HomePage.dart';
 import 'package:flutter_learning/page/SemicircleFlowPopMenu.dart';
 import 'package:flutter_learning/page/TextPage.dart';
+import 'package:flutter_learning/page/WeightWidget.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +35,9 @@ class MyApp extends StatelessWidget {
       routes: {
         "TextPage": (BuildContext context) => TextPage(),
         "FlowPopMenu": (BuildContext context) => FlowPopMenu(),
-        "SemicircleFlowPopMenu": (BuildContext context) => SemicircleFlowPopMenu()
+        "SemicircleFlowPopMenu": (BuildContext context) =>
+            SemicircleFlowPopMenu(),
+        "WeightWidget": (BuildContext context) => WeightWidget(),
       },
     );
   }

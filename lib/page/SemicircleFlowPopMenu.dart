@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 ///    author : xingke
 ///    e-mail : jxklongmao@gmail.com
 ///    date   : 2021/5/12 15:54
-///    desc   :
+///    desc   : 半圆展开菜单
 ///    version: 1.0
 class SemicircleFlowPopMenu extends StatefulWidget {
   @override
