@@ -45,6 +45,13 @@ class HomePage extends StatelessWidget {
                   },
                   child: Text("WeightWidget"),
                 ),
+                SizedBox(height: 20),
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "CustomScrollerBar");
+                  },
+                  child: Text("CustomScrollerBar"),
+                ),
               ],
             ),
           ),
