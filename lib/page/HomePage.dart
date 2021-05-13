@@ -52,6 +52,13 @@ class HomePage extends StatelessWidget {
                   },
                   child: Text("CustomScrollerBar"),
                 ),
+                SizedBox(height: 20),
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "GradientDemo");
+                  },
+                  child: Text("GradientDemo"),
+                ),
               ],
             ),
           ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learning/page/CustomScrollerBar.dart';
 import 'package:flutter_learning/page/FlowPage.dart';
+import 'package:flutter_learning/page/GradientPage.dart';
 import 'package:flutter_learning/page/HomePage.dart';
 import 'package:flutter_learning/page/SemicircleFlowPopMenu.dart';
 import 'package:flutter_learning/page/TextPage.dart';
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
             SemicircleFlowPopMenu(),
         "WeightWidget": (BuildContext context) => WeightWidget(),
         "CustomScrollerBar": (BuildContext context) => CustomScrollbar(),
+        "GradientDemo": (BuildContext context) => GradientDemo(),
       },
     );
   }
