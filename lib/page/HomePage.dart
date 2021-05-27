@@ -59,6 +59,13 @@ class HomePage extends StatelessWidget {
                   },
                   child: Text("GradientDemo"),
                 ),
+                SizedBox(height: 20),
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "AnimationBaseDemo");
+                  },
+                  child: Text("AnimationBaseDemo"),
+                ),
               ],
             ),
           ),

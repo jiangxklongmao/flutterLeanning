@@ -6,6 +6,7 @@ import 'package:flutter_learning/page/HomePage.dart';
 import 'package:flutter_learning/page/SemicircleFlowPopMenu.dart';
 import 'package:flutter_learning/page/TextPage.dart';
 import 'package:flutter_learning/page/WeightWidget.dart';
+import 'package:flutter_learning/page/animation_base_demo.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         "WeightWidget": (BuildContext context) => WeightWidget(),
         "CustomScrollerBar": (BuildContext context) => CustomScrollbar(),
         "GradientDemo": (BuildContext context) => GradientDemo(),
+        "AnimationBaseDemo": (BuildContext context) => AnimationBaseDemo(),
       },
     );
   }
